@@ -72,12 +72,9 @@
                 <p>- OR -</p>
 
                 <!--Social-Auth-Links -->
-                <a href="" class="btn btn-block btn-primary">
-                    <i class="fa fa-facebook mr-2"></i> Sign in using Facebook
-                </a>
 
-                <a href="" class="btn btn-block btn-danger">
-                    <i class="fa fa-google-plus mr-2"></i> Sign in using Google+
+                <a href="{{url('login/github')}}" class="btn btn-block btn-dark">
+                    <i class="fa fa-github mr-2"></i> Sign in using GitHub
                 </a>
 
             </div>
